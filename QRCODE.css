@@ -1,0 +1,120 @@
+:root{
+    --border-radius:9px;
+    
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items:center ;
+}
+
+.box{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.19),0 6px 20px 0 rgba(0,0,0,0.1); 
+    height:45rem;
+    width:28rem;
+    padding:15px;
+    border-radius:var(--border-radius);
+    background-color: rgb(72, 223, 223);
+}
+.header h1{
+    font-size:26px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.header input{
+    height:2rem;
+    
+    outline:none;
+    margin-top:10px;
+    margin-bottom:15px;
+    border-radius: var(--border-radius);
+    padding-left:15px;
+    padding-right:15px;
+    width:90%;
+}
+.body select{
+    margin-top: 10px;
+    height:2.5rem;
+    width:5rem;
+    position:relative;
+    right:30px;
+    border-radius: var(--border-radius);
+}
+
+.body {
+    display:flex;
+    justify-content: space-between;
+}
+.body .lable{
+    font-weight:bolder;
+    font-size: 25px;
+}
+
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer a{
+    margin-right:50px;
+    height:50px;
+    width:10rem;
+    font-size: 35px;
+    font-weight:bolder;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+
+}
+.footer .GENERATE{
+    margin-left:50px;
+    background-color:rgb(48, 229, 48);
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 630;
+}
+.footer .DOWNLOAD{
+    background-color:rgb(229, 72, 48);
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 630;
+}
+.footer #btn:hover{
+    cursor:pointer;
+    transition:all 1s step-start 0s;
+    color:red;
+    transform: scale(1.2);
+}
+.qrcontainer{
+   
+    height:60%;
+    width:92%;
+    margin-top:3px;
+    position:relative;
+    left:12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
